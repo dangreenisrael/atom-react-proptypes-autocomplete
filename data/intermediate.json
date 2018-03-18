@@ -1,0 +1,30 @@
+[
+	{
+		"description": "A component for adding forms",
+	  "displayName": "FooBar",
+		"snippet": "someText($1)",
+	  "props": {
+	    "formFieldName": {
+	      "type": {
+	        "name": "string"
+	      },
+	      "required": true,
+	      "description": "The key of the form"
+	    },
+	    "value": {
+	      "type": {
+	        "name": "string"
+	      },
+	      "required": false,
+	      "description": ""
+	    },
+	    "onChange": {
+	      "type": {
+	        "name": "func"
+	      },
+	      "required": true,
+	      "description": ""
+	    }
+	  }
+	}
+]
