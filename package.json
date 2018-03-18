@@ -1,24 +1,24 @@
 {
-  "name": "dan-demo-thing",
+  "name": "atom-react-proptypes-autocomplete",
   "main": "./lib/main",
-  "version": "0.2.0",
-  "description": "Boilerplate package for creating your own custom autocomplete provider for Atom.",
-  "keywords": [
-    "autocomplete",
-    "provider",
-    "boilerplate"
-  ],
-  "repository": "https://github.com/lonekorean/atom-autocomplete-boilerplate",
-  "author": "Will Boyd <will@codersblock.com> (http://codersblock.com)",
+  "version": "0.0.1",
+  "description":
+    "Autocomplete provider for using react docgen to autocomplete proptypes",
+  "keywords": ["proptypes", "react", "autocomplete"],
+  "repository":
+    "https://github.com/dangreenisrael/atom-react-proptypes-autocomplete",
+  "author": "Dan Green-Leipciger (https://github.com/dangreenisrael)",
   "license": "MIT",
-  "engines": {
-    "atom": ">=1.15.0 <2.0.0"
-  },
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
         "2.0.0": "getProvider"
       }
     }
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.11.1"
   }
 }
