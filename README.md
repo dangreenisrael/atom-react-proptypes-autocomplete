@@ -1,5 +1,8 @@
 # Atom React PropTypes Autocomplete. - WIP
 
+[![Build Status on CircleCI](https://circleci.com/gh/dangreenisrael/atom-react-proptypes-autocomplete.svg?style=shield)](https://circleci.com/gh/storybooks/storybook)
+
+
 This is a provider for autocomplete+ that uses react docgen to come to pre-fill proptypes for components.
 
 Currently, this only works with local imports, in the form 
