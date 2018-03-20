@@ -3,7 +3,7 @@
   "main": "./lib/main",
   "version": "0.0.1",
   "description":
-    "Autocomplete provider for using react docgen to autocomplete proptypes",
+    "Autocomplete+ provider for using react docgen to autocomplete proptypes",
   "keywords": ["proptypes", "react", "autocomplete"],
   "repository":
     "https://github.com/dangreenisrael/atom-react-proptypes-autocomplete",
