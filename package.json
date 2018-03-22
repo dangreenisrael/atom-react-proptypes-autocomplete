@@ -17,7 +17,8 @@
     }
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint lib test-data"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "./test-data/test-setup.js"
@@ -34,6 +35,7 @@
     "regenerator-runtime": "^0.11.1"
   },
   "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-stage-1": "^6.24.1",
     "ramda": "^0.25.0",
     "react-docgen": "^2.20.1",
