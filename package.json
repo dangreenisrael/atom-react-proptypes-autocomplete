@@ -2,13 +2,11 @@
   "name": "atom-react-proptypes-autocomplete",
   "main": "./lib/main",
   "version": "0.1.0",
-  "description": "Autocomplete+ provider for using react docgen to autocomplete proptypes",
-  "keywords": [
-    "proptypes",
-    "react",
-    "autocomplete"
-  ],
-  "repository": "https://github.com/dangreenisrael/atom-react-proptypes-autocomplete",
+  "description":
+    "Autocomplete+ provider for using react docgen to autocomplete proptypes",
+  "keywords": ["proptypes", "react", "autocomplete"],
+  "repository":
+    "https://github.com/dangreenisrael/atom-react-proptypes-autocomplete",
   "author": "Dan Green-Leipciger (https://github.com/dangreenisrael)",
   "license": "MIT",
   "providedServices": {
@@ -20,6 +18,9 @@
   },
   "scripts": {
     "test": "jest"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./test-data/test-setup.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
