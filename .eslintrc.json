@@ -3,6 +3,7 @@
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error",
-    "strict": 0
+    "strict": 0,
+    "no-unused-vars": "error"
   }
 }
