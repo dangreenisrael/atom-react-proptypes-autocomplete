@@ -1,7 +1,7 @@
 {
   "name": "atom-react-proptypes-autocomplete",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description":
     "Autocomplete+ provider for React PropTypes - no setup required",
   "keywords": ["proptypes", "react", "autocomplete"],
