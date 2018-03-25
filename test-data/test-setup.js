@@ -3,4 +3,5 @@ const getPath = () => currentPath;
 const getText = () => importText;
 const getBuffer = () => ({ getPath, getText });
 const getActiveTextEditor = () => ({ getBuffer });
-global.atom = { workspace: { getActiveTextEditor } };
+const config = { observe: () => {} };
+global.atom = { workspace: { getActiveTextEditor }, config };

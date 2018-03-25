@@ -1,10 +1,11 @@
 {
   "parser": "babel-eslint",
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "react"],
   "rules": {
     "prettier/prettier": "error",
     "strict": 0,
     "no-unused-vars": "error",
-    "no-console": "error"
+    "no-console": "error",
+    "react/jsx-uses-react": "error"
   }
 }
