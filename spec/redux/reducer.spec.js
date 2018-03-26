@@ -1,5 +1,5 @@
-import { reducer, initialState } from './reducer';
-import * as types from './actionTypes';
+import { reducer, initialState } from '../../lib/redux/reducer';
+import * as types from '../../lib/redux/actionTypes';
 
 describe('reducer', () => {
   it('should return the initial state', () => {

@@ -1,5 +1,5 @@
-import { SET_RELATIVE_IMPORT_PATHS, SET_SUGGESTIONS } from './actionTypes';
-import { setRelativeImportPaths, setSuggestions } from './actionCreators';
+import { SET_RELATIVE_IMPORT_PATHS, SET_SUGGESTIONS } from '../../lib/redux/actionTypes';
+import { setRelativeImportPaths, setSuggestions } from '../../lib/redux/actionCreators';
 
 describe('setRelativeImportPaths', () => {
   const action = setRelativeImportPaths(['/foo', '/bar']);
