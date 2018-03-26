@@ -21,7 +21,7 @@
     "lint": "eslint lib test-data"
   },
   "jest": {
-    "setupTestFrameworkScriptFile": "./test-data/test-setup.js"
+    "setupTestFrameworkScriptFile": "./spec/test-setup.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

@@ -1,6 +1,6 @@
-import store from './reducer';
-import { setRelativeImportPaths, setSuggestions } from './actionCreators';
-import './handlePathChanges';
+import store from '../../lib/redux/reducer';
+import { setRelativeImportPaths, setSuggestions } from '../../lib/redux/actionCreators';
+import '../../lib/redux/handlePathChanges';
 
 const dispatchSpy = jest.spyOn(store, 'dispatch');
 describe('handlePathChanges', () => {

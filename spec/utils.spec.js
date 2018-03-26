@@ -4,8 +4,8 @@ import {
   flattenTemplateStringArrayIntoTemplateString,
   buildReactComponentTemplateString,
   buildSnippet
-} from './utils';
-import docgenOutput from '../test-data/docgenOutput';
+} from '../lib/utils';
+import docgenOutput from './test-data/docgenOutput';
 
 test('buildSnippet takes a docgenObject and returns a full snippet', () => {
   expect(buildSnippet(docgenOutput[0])).toBe(
