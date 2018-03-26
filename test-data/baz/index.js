@@ -1,6 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-export const Foo = ({ name }) => <span> {name} </span>;
-Foo.propTypes = {
-  name: PropTypes.string.isRequired
+
+/**
+ * A component for adding forms
+ */
+export const FormTextInput = ({ formFieldName, inputValue, onChange }) => (
+  <span>
+    {formFieldName} {inputValue} {onChange}
+  </span>
+);
+FormTextInput.propTypes = {
+  formFieldName: PropTypes.string.isRequired,
+  inputValue: PropTypes.string,
+  onChange: PropTypes.func.isRequired
 };

@@ -2,24 +2,22 @@
   {
     "description": "A component for adding forms",
     "displayName": "FormTextInput",
+    "methods": [],
     "props": {
       "formFieldName": {
-        "type": {
-          "name": "string"
-        },
-        "required": true
+        "description": "",
+        "required": true,
+        "type": { "name": "string" }
       },
       "inputValue": {
-        "type": {
-          "name": "string"
-        },
-        "required": false
+        "description": "",
+        "required": false,
+        "type": { "name": "string" }
       },
       "onChange": {
-        "type": {
-          "name": "func"
-        },
-        "required": true
+        "description": "",
+        "required": true,
+        "type": { "name": "func" }
       }
     }
   }
