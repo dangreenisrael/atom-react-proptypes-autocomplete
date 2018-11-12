@@ -1,3 +1,5 @@
+# Unmaintaintained. I've switched to VS Code
+
 # Atom React PropTypes Autocomplete
 
 [![Build Status on CircleCI](https://circleci.com/gh/dangreenisrael/atom-react-proptypes-autocomplete.svg?style=shield)](https://circleci.com/gh/storybooks/storybook)
